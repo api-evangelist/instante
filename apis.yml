@@ -1,7 +1,26 @@
 aid: instante
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instante.png
 name: Instante
-description: Instante is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Instante (also listed as Istante Software) is a data-warehousing software company that received a
+  seed investment from Canaan Partners, with John Balen listed as the sponsoring partner on Canaan's
+  portfolio page. The company is profiled as an application software provider building tools for data
+  warehousing. It was surfaced through the API Evangelist VC-portfolio pipeline as a Canaan Partners
+  portfolio lead. An enrichment pass on 2026-07-20 found no public developer surface. No reachable
+  company website, API, developer documentation, SDKs, OpenAPI, or event/webhook surface could be
+  verified. The candidate domains instante.com (a parked domain listed for sale) and instante.io (an
+  unrelated Brazilian consumer photo-gallery app) are not this company.
 url: https://raw.githubusercontent.com/api-evangelist/instante/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Data Warehousing
+- Software
+- Application Software
+- Analytics
+- Venture-Backed
 apis: []
+common:
+- type: CompanyProfile
+  url: https://www.canaan.com/companies/instante-software
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
