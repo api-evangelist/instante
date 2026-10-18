@@ -48,7 +48,6 @@ tags:
 - Software
 - Application Software
 - Analytics
-- Venture Backed
 tags_raw:
 - Company
 - Data Warehousing
@@ -56,6 +55,7 @@ tags_raw:
 - Application Software
 - Analytics
 - Venture-Backed
+- Venture Backed
 apis: []
 common:
 - type: CompanyProfile
